@@ -1,6 +1,6 @@
 # Dragonia Mod
 
-Mod personnalisé pour le serveur pvp faction Dragonia
+Mod personnalisé pour le serveur pvp faction [Dragonia](https://dragonia-pvp.fr)
 
 ## Installation
 
