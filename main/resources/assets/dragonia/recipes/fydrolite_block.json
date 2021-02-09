@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "dragonia:fydrolite_ingot",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:fydrolite_block",
+        "count": 1,
+	    "data": 0
+    }
+}

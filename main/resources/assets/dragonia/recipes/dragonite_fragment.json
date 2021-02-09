@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "dragonia:dragonite_piece",
+			"data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:dragonite_fragment",
+		"data": 0
+    }
+}

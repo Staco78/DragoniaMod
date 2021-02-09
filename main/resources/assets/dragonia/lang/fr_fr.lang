@@ -1,0 +1,35 @@
+tile.dragonite_block.name=Bloc de dragonite
+tile.dragonite_ore.name=Minerai de dragonite
+item.dragonite_ingot.name=Lingot de dragonite
+itemGroup.CreativeTabMod=Dragonia
+item.dragonite_pickaxe.name=Pioche en dragonite
+item.dragonite_sword.name=Epée en dragonite
+item.dragonite_axe.name=Hache en dragonite
+item.dragonite_shovel.name=Pelle en dragonite
+item.dragonite_hoe.name=Houe en dragonite
+item.molten_dragonite.name=Dragonite fondue
+item.dragonite_piece.name=Bout de dragonite
+item.dragonite_fragment.name=Fragment de dragonite
+item.refined_dragonite.name=Dragonite raffinée
+item.dragonite_helmet.name=Casque en dragonite
+item.dragonite_chestplate.name=Plastron en dragonite
+item.dragonite_leggings.name=Jambières en dragonite
+item.dragonite_boots.name=Bottes en dragonite
+item.dragonite_apple.name=Pomme en dragonite
+
+tile.fydrolite_block.name=Bloc de fydrolite
+tile.fydrolite_ore.name=Minerai de fydrolite
+item.fydrolite_ingot.name=Lingot de fydrolite
+item.fydrolite_apple.name=Pomme en fydrolite
+item.fydrolite_pickaxe.name=Pioche en fydrolite
+item.fydrolite_sword.name=Epée en fydrolite
+item.fydrolite_axe.name=Hache en fydrolite
+item.fydrolite_shovel.name=Pelle en fydrolite
+item.fydrolite_hoe.name=Houe en fydrolite
+item.fydrolite_helmet.name=Casque en fydrolite
+item.fydrolite_chestplate.name=Plastron en fydrolite
+item.fydrolite_leggings.name=Jambières en fydrolite
+item.fydrolite_boots.name=Bottes en fydrolite
+
+advancements.root.title=POURQUOI ???!!
+advancements.root.description=Crafter une houe en dragonite

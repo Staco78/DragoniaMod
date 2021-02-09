@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "dragonia:refined_dragonite",
+			"data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:dragonite_ingot",
+		"data": 0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "dragonia:dragonite_ingot",
+	    "data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:dragonite_block",
+        "count": 1,
+	"data": 0
+    }
+}

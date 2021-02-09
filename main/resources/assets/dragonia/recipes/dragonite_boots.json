@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "dragonia:dragonite_ingot",
+	    "data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:dragonite_boots",
+        "count": 1,
+	"data": 0
+    }
+}

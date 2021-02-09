@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dragonia",
+  "name": "Dragonia",
+  "description": "Dragonia",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Staco_78"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

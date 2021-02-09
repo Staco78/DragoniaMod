@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        " d ",
+        " d "
+    ],
+    "key": {
+        "i": {
+            "item": "dragonia:dragonite_ingot",
+	    "data": 0
+        },
+        "d": {
+            "item": "minecraft:stick",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:dragonite_pickaxe",
+        "count": 1,
+	"data": 0
+    }
+}
