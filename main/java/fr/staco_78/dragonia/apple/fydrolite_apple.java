@@ -1,28 +1,38 @@
 package fr.staco_78.dragonia.apple;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemFood;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.ItemAppleGold;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.EnumHand;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 
-public class fydrolite_apple extends ItemFood {
+public class fydrolite_apple extends ItemAppleGold {
 
-	public static boolean delay = false;
-	
 	public fydrolite_apple(int amount, float saturation, boolean isWolfFood) {
 		super(amount, saturation, isWolfFood);
-		
+
 		setRegistryName("fydrolite_apple");
 		setUnlocalizedName("fydrolite_apple");
 		setAlwaysEdible();
-		
-		setPotionEffect(new PotionEffect(Potion.getPotionById(8), 300, 4), 100.0F);
 	}
+
+	@Override
+	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
+		player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 6000, 0));
+		player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 6000, 2));
+		player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 600, 0));
+	}
+	
+	@Override
+	public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> items) {
+		if (this.isInCreativeTab(tab))
+        {
+            items.add(new ItemStack(this));
+        }
+	}
+
+
 }

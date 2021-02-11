@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ii",
+        "d ",
+        "d "
+    ],
+    "key": {
+        "i": {
+            "item": "dragonia:hydrolite_ingot",
+            "data": 0
+        },
+        "d": {
+            "item": "minecraft:stick",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "dragonia:hydrolite_hoe",
+        "count": 1,
+        "data": 0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "dragonia:items/hydrolite_shovel"
+    }
+}

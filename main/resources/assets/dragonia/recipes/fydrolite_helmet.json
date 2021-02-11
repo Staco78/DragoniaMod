@@ -6,12 +6,12 @@
     ],
     "key": {
         "i": {
-            "item": "dragonia:dragonite_ingot",
+            "item": "dragonia:fydrolite_ingot",
             "data": 0
         }
     },
     "result": {
-        "item": "dragonia:dragonite_helmet",
+        "item": "dragonia:fydrolite_helmet",
         "count": 1,
         "data": 0
     }

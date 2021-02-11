@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid = References.MODID)
 public class BlocksMod {
 	
-	public static Block dragonite_block, dragonite_ore, fydrolite_ore, fydrolite_block;
+	public static Block dragonite_block, dragonite_ore, fydrolite_ore, fydrolite_block, hydrolite_block, hydrolite_ore;
 	
 	public static void init() {
 		dragonite_block = new BlockMod("dragonite_block", Material.ROCK, 10.0F, 3.0F);
@@ -26,11 +26,14 @@ public class BlocksMod {
 		
 		fydrolite_block = new BlockMod("fydrolite_block", Material.ROCK, 10.0F, 3.0F);
 		fydrolite_ore = new BlockOreMod("fydrolite_ore", 2, 3.0F, 10.0F);
+		
+		hydrolite_block = new BlockMod("hydrolite_block", Material.ROCK, 9.0F, 2.5F);
+		hydrolite_ore = new BlockOreMod("hydrolite_ore", 2, 2.5F, 9.0F);
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(dragonite_block, dragonite_ore, fydrolite_ore, fydrolite_block);
+		event.getRegistry().registerAll(dragonite_block, dragonite_ore, fydrolite_ore, fydrolite_block, hydrolite_block, hydrolite_ore);
 	}
 	
 	@SubscribeEvent
@@ -39,7 +42,9 @@ public class BlocksMod {
 				new ItemBlock(dragonite_block).setRegistryName(dragonite_block.getRegistryName()),
 				new ItemBlock(dragonite_ore).setRegistryName(dragonite_ore.getRegistryName()),
 				new ItemBlock(fydrolite_ore).setRegistryName(fydrolite_ore.getRegistryName()),
-				new ItemBlock(fydrolite_block).setRegistryName(fydrolite_block.getRegistryName())
+				new ItemBlock(fydrolite_block).setRegistryName(fydrolite_block.getRegistryName()),
+				new ItemBlock(hydrolite_block).setRegistryName(hydrolite_block.getRegistryName()),
+				new ItemBlock(hydrolite_ore).setRegistryName(hydrolite_ore.getRegistryName())
 				);
 	}
 	
@@ -49,6 +54,8 @@ public class BlocksMod {
 		registerRender(Item.getItemFromBlock(dragonite_ore));
 		registerRender(Item.getItemFromBlock(fydrolite_ore));
 		registerRender(Item.getItemFromBlock(fydrolite_block));
+		registerRender(Item.getItemFromBlock(hydrolite_ore));
+		registerRender(Item.getItemFromBlock(hydrolite_block));
 	}
 	
 	private static void registerRender(Item item) {

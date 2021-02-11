@@ -42,6 +42,7 @@ public class OreGeneration implements IWorldGenerator{
 	{
 		this.generateOre(BlocksMod.dragonite_ore.getDefaultState(), Blocks.STONE.getDefaultState(), world, random, x, z, 16, 16, 5, 53, 23, 44);
 		this.generateOre(BlocksMod.fydrolite_ore.getDefaultState(), Blocks.STONE.getDefaultState(), world, random, x, z, 16, 16, 10, 80, 0, 60);
+		this.generateOre(BlocksMod.hydrolite_ore.getDefaultState(), Blocks.STONE.getDefaultState(), world, random, x, z, 16, 16, 15, 60, 23, 44);
 	}
 
 	private void generateNether(World world, Random random, int x, int z)

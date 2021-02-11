@@ -1,17 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
+        "i i",
         "iii",
-        "i i"
+        "iii"
     ],
     "key": {
         "i": {
-            "item": "dragonia:dragonite_ingot",
+            "item": "dragonia:hydrolite_ingot",
             "data": 0
         }
     },
     "result": {
-        "item": "dragonia:dragonite_helmet",
+        "item": "dragonia:hydrolite_chestplate",
         "count": 1,
         "data": 0
     }

@@ -31,5 +31,19 @@ item.fydrolite_chestplate.name=Plastron en fydrolite
 item.fydrolite_leggings.name=Jambières en fydrolite
 item.fydrolite_boots.name=Bottes en fydrolite
 
+tile.hydrolite_block.name=Block d'hydrolite
+tile.hydrolite_ore.name=Minerai d'hydrolite
+item.hydrolite_ingot.name=Lingot d'hydrolite
+item.hydrolite_apple.name=Pomme en hydrolite
+item.hydrolite_pickaxe.name=Pioche en hydrolite
+item.hydrolite_sword.name=Epée en hydrolite
+item.hydrolite_axe.name=Hache en hydrolite
+item.hydrolite_shovel.name=Pelle en hydrolite
+item.hydrolite_hoe.name=Houe en hydrolite
+item.hydrolite_helmet.name=Casque en hydrolite
+item.hydrolite_chestplate.name=Plastron en hydrolite
+item.hydrolite_leggings.name=Jambières en hydrolite
+item.hydrolite_boots.name=Bottes en hydrolite
+
 advancements.root.title=POURQUOI ???!!
 advancements.root.description=Crafter une houe en dragonite

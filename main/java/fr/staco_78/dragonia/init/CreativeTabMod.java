@@ -45,5 +45,20 @@ public class CreativeTabMod {
 		ItemsMod.fydrolite_chestplate.setCreativeTab(CreativeTabMod);
 		ItemsMod.fydrolite_leggings.setCreativeTab(CreativeTabMod);
 		ItemsMod.fydrolite_boots.setCreativeTab(CreativeTabMod);
+		
+		BlocksMod.hydrolite_block.setCreativeTab(CreativeTabMod);
+		BlocksMod.hydrolite_ore.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_ingot.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_apple.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_pickaxe.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_sword.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_axe.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_shovel.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_hoe.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_helmet.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_chestplate.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_leggings.setCreativeTab(CreativeTabMod);
+		ItemsMod.hydrolite_boots.setCreativeTab(CreativeTabMod);
+		
 	}
 }
