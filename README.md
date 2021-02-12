@@ -4,7 +4,7 @@ Mod personnalisé pour le serveur Pvp Faction [Dragonia](https://dragonia-pvp.fr
 
 ## Installation
 
-Utilisez le [launcheur](https://dragonia-pvp.fr/launch/bootstrap/Launcher%20Dragonia-V1.exe/) pour installer automatiquement les mods et pouvoir rejoindre le serveur.
+Utilisez le [launcheur](https://dragonia-pvp.fr/launch/bootstrap/Launcher%20Dragonia-V1.exe) pour installer automatiquement les mods et pouvoir rejoindre le serveur.
 
 [Windows](https://dragonia-pvp.fr/launch/bootstrap/Launcher%20Dragonia-V1.exe)
 
